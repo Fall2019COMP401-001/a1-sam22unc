@@ -61,7 +61,7 @@ public class A1Adept {
 		// Print results
 		System.out.printf("\nBiggest: %s %s (%.2f)", firstName[max(custTotals)], lastName[max(custTotals)], custTotals[max(custTotals)]);
 		System.out.printf("\nSmallest: %s %s (%.2f)", firstName[min(custTotals)], lastName[min(custTotals)], custTotals[min(custTotals)]);
-		System.out.printf("\nAverage: (%.2f)", averageTotals(custTotals));
+		System.out.printf("\nAverage: %.2f", averageTotals(custTotals));
 	}
 	
 	/* min
